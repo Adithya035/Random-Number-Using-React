@@ -1,0 +1,57 @@
+* {
+
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    font-family: "Gabarito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    background-color: aqua;
+}
+
+.container {
+
+    text-align: center;
+    margin-top: 100px;
+}
+
+.random__heading {
+
+    animation-name: randomnumber;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    padding: 15px;
+}
+
+@keyframes randomnumber {
+
+    0%{color: blue;}
+    25%{color: brown;}
+    50%{color: chartreuse;}
+    75%{color: slateblue;}
+    100%{color: violet;}
+}
+
+.random__heading--modifier {
+
+    padding: 15px;
+    font-size: 50px;
+}
+
+.button__random {
+
+    border: none;
+    padding: 10px;
+    border-radius: 3px;
+    background-color: chartreuse;
+    color: darkmagenta;
+}
+
+.button__random:hover {
+
+    cursor: pointer;
+}
