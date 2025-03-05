@@ -51,7 +51,21 @@ body {
     color: darkmagenta;
 }
 
-.button__random:hover {
+.button__container button{
+
+    margin: 10px;
+}
+
+.button__random,.button__reset:hover {
 
     cursor: pointer;
+}
+
+.button__reset {
+
+    border: none;
+    padding: 10px;
+    border-radius: 3px;
+    background-color: chocolate;
+    color: darkmagenta;
 }
